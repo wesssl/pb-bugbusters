@@ -1,0 +1,343 @@
+{"level":30,"time":"2025-09-23T18:36:14.797Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Listening on 127.0.0.1:52012"}
+(node:67087) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-09-23T18:36:15.859Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-23T18:36:16.365Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-09-23T18:36:16.365Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-23T18:36:16.365Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-23T18:36:16.368Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-23T18:36:16.368Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@ba5790d6e1d4c12aa0a34ce1e96c8fef\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=f1d97be1-a2ea-4719-99ab-a0502f6da637\"}"}
+{"level":30,"time":"2025-09-23T18:36:16.373Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Setting default timeout for context context=eaf2b014-8cf8-4167-b57b-a1caeafc08c8 to 10000"}
+{"level":30,"time":"2025-09-23T18:36:16.373Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changed active context: context=eaf2b014-8cf8-4167-b57b-a1caeafc08c8"}
+{"level":30,"time":"2025-09-23T18:36:16.680Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-23T18:36:16.680Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2025-09-23T18:36:18.805Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-23T18:36:18.812Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-23T18:36:18.812Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@class=\"form\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:18.832Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-23T18:36:18.835Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:18.835Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@class=\"font-robot\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:18.851Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@class=\"font-robot\"] containing Cadastro"}
+{"level":30,"time":"2025-09-23T18:36:18.851Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:18.854Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-23T18:36:18.854Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@data-testid=\"checkbox\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:18.892Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2025-09-23T18:36:18.895Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:18.895Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"nome\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:18.898Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:18.900Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:18.900Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"email\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:18.903Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:18.906Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:18.906Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"password\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:18.910Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:18.912Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-23T18:36:18.912Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//button[@data-testid=\"cadastrar\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:18.942Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2025-09-23T18:36:18.944Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-23T18:36:18.944Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@class=\"alert-link\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:19.738Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-23T18:36:19.743Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:19.743Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@class=\"alert-link\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:19.755Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@class=\"alert-link\"] containing Cadastro realizado com sucesso"}
+{"level":30,"time":"2025-09-23T18:36:19.755Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:19.760Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.761Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.762Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.762Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.763Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.764Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.765Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.766Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.767Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changed active context: context=eaf2b014-8cf8-4167-b57b-a1caeafc08c8"}
+{"level":30,"time":"2025-09-23T18:36:19.767Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changing current active page: page=eaa3c172-9d67-49c6-84cd-a9fbf4eac865"}
+{"level":30,"time":"2025-09-23T18:36:19.767Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2025-09-23T18:36:19.773Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-23T18:36:19.790Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Removed page=8951688b-1fa2-46ea-bdee-dc5792886354 from context=eaf2b014-8cf8-4167-b57b-a1caeafc08c8 page stack"}
+{"level":30,"time":"2025-09-23T18:36:19.799Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-23T18:36:19.800Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.800Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:19.802Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-23T18:36:19.802Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-23T18:36:19.804Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-23T18:36:19.804Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@ba5790d6e1d4c12aa0a34ce1e96c8fef\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=f1d97be1-a2ea-4719-99ab-a0502f6da637\"}"}
+{"level":30,"time":"2025-09-23T18:36:19.825Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Setting default timeout for context context=4f8a9879-f99a-4c92-a932-51656e9932fa to 10000"}
+{"level":30,"time":"2025-09-23T18:36:19.825Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changed active context: context=4f8a9879-f99a-4c92-a932-51656e9932fa"}
+{"level":30,"time":"2025-09-23T18:36:20.044Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-23T18:36:20.044Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2025-09-23T18:36:22.346Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-23T18:36:22.357Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-23T18:36:22.357Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@class=\"form\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:22.376Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-23T18:36:22.379Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:22.379Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@class=\"font-robot\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:22.392Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@class=\"font-robot\"] containing Cadastro"}
+{"level":30,"time":"2025-09-23T18:36:22.392Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:22.396Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:22.396Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"nome\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:22.402Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:22.404Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:22.404Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"email\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:22.407Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:22.409Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:22.409Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"password\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:22.413Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-23T18:36:22.414Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-23T18:36:22.414Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//button[@data-testid=\"cadastrar\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:22.444Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2025-09-23T18:36:22.445Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-23T18:36:22.445Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.243Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-23T18:36:23.248Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.249Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.257Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.257Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.272Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.272Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.279Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.279Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.293Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.293Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.297Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.298Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.312Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.312Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.316Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.316Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.330Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.330Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.334Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.334Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.347Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.348Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.352Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.352Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.366Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.366Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.370Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.370Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.384Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.384Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.389Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.389Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.402Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.402Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.407Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.407Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.420Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.420Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.424Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.424Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.438Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.438Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.442Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.442Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.456Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.456Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.459Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.459Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.473Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.473Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.477Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.477Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.491Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.491Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.495Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.495Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.508Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.508Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.513Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.513Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.527Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.527Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.531Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.531Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.545Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.545Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.549Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.549Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.562Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.562Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.565Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.565Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.579Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.579Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.582Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.582Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.595Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.595Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.598Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.598Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.612Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.612Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.615Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.615Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.629Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.629Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.633Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.633Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.646Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.646Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.650Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.650Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.663Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.663Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.667Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.667Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.681Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.681Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.685Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.685Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.699Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.699Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.703Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.703Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.716Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.716Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.720Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.720Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.734Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.734Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.738Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.738Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.751Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.751Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.756Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.756Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.769Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.769Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.774Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.774Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.787Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.787Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.791Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.791Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.805Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.805Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.809Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.809Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.823Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.823Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.826Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.826Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.840Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.840Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.844Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.844Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.858Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.858Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.862Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.862Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.876Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.876Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.879Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.879Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.893Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.893Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.897Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.897Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.911Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.911Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.915Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.915Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.929Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.929Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.933Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.933Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.946Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.946Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.950Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.950Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.964Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.964Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.968Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.968Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.982Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.982Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:23.985Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:23.986Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.999Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:23.999Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.002Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.002Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.016Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.016Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.019Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.019Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.032Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.032Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.036Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.036Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.050Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.050Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.053Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.053Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.066Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.066Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.070Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.070Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.084Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.084Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.087Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.087Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.101Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.101Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.105Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.106Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.118Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.118Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.123Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.123Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.135Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.135Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.139Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.139Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.153Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.153Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.157Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.157Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.169Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.169Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.173Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.173Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.186Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.186Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.190Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.190Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.204Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.204Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.208Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.208Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.222Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.222Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.225Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.225Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.239Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.239Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.243Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.243Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.255Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.255Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@role=\"alert\"] in page."}
+{"level":30,"time":"2025-09-23T18:36:24.258Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Retrieved text for element xpath=//*[@role=\"alert\"] containing ×\nEste email já está sendo usado"}
+{"level":30,"time":"2025-09-23T18:36:24.258Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-23T18:36:24.260Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-23T18:36:24.261Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","Take screenshot with options: ":{"path":"/Users/wesleylima/Documents/BugBusters/pb-bugbusters/ServeRest Tests/logs/browser/screenshot/fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-23T18:36:24.406Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-23T18:36:24.411Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.412Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.412Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.412Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.413Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.413Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.414Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.414Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.415Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changed active context: context=4f8a9879-f99a-4c92-a932-51656e9932fa"}
+{"level":30,"time":"2025-09-23T18:36:24.415Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changing current active page: page=8b923494-4998-45b1-9ad6-fbcb6e71d25e"}
+{"level":30,"time":"2025-09-23T18:36:24.415Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2025-09-23T18:36:24.422Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-23T18:36:24.427Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Removed page=8cef67dd-e533-4067-b350-7573c5d9b24a from context=4f8a9879-f99a-4c92-a932-51656e9932fa page stack"}
+{"level":30,"time":"2025-09-23T18:36:24.443Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-23T18:36:24.445Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.445Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-23T18:36:24.460Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-23T18:36:24.555Z","pid":67087,"hostname":"Wesleys-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
