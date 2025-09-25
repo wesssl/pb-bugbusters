@@ -120,4 +120,4 @@ Deve cadastrar um novo usuário com sucesso
     Cadastrar Usuário    ${payload}
 ```
 
-##
+### As sugestões não foram dividamente testadas, se forem acatadas, apliquem como exemplo para a melhoria do código de vocês.
