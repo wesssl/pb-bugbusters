@@ -1,4 +1,7 @@
-## Code review BugBusters - Bruno
+### Squad que realiou o CR: BugBusters
+### Squad que recebeu o CR: AutoBots
+
+---
 
 - [ ] 1 - Replicação de código desnecessária 
 - Nos arquivos `LoginPage.robot` e `CadastroPage.robot` está repetindo o a url da aplicação.
