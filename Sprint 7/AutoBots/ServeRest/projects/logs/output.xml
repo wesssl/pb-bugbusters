@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-09-24T16:39:12.243840" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\Bruno Calazans\Documents\Compass\AutoBots\ServeRest\projects\tests">
+<suite id="s1-s1" name="Cadastro" source="C:\Users\Bruno Calazans\Documents\Compass\AutoBots\ServeRest\projects\tests\cadastro.robot">
+<test id="s1-s1-t1" name="Deve cadastrar um novo usuário com sucesso" line="13">
+<kw name="Start Session" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T16:39:12.875383" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Bruno Calazans\\Documents\\Compass\\AutoBots\\ServeRest\\projects\\logs\\browser\\traces\\temp\\0a378d14-aea9-4612-b0eb-800a193af9e4"}</msg>
+<msg time="2025-09-24T16:39:12.901536" level="INFO">Starting Browser process C:\Users\Bruno Calazans\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:55854</msg>
+<msg time="2025-09-24T16:39:14.187103" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Bruno Calazans\\Documents\\Compass\\AutoBots\\ServeRest\\projects\\logs\\browser\\traces\\temp\\0a378d14-aea9-4612-b0eb-800a193af9e4"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T16:39:12.874672" elapsed="1.312661"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T16:39:14.189041" level="FAIL">Variable '${BASE_URL}' not found.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="FAIL" start="2025-09-24T16:39:14.187589" elapsed="0.001571">Variable '${BASE_URL}' not found.</status>
+</kw>
+<doc>Abre o navegador e inicia a página base do sistema</doc>
+<status status="FAIL" start="2025-09-24T16:39:12.873689" elapsed="1.315720">Variable '${BASE_URL}' not found.</status>
+</kw>
+<status status="FAIL" start="2025-09-24T16:39:12.872896" elapsed="1.318279">Setup failed:
+Variable '${BASE_URL}' not found.</status>
+</test>
+<test id="s1-s1-t2" name="Não deve cadastrar usuário duplicado" line="26">
+<kw name="Start Session" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T16:39:14.215431" level="INFO">Switching browser to browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:14.224837" level="INFO">Successfully changed active browser: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:14.225526" level="INFO">Reusing existing browser with id: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<arg>browser=chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T16:39:14.214336" elapsed="0.011355"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T16:39:14.227185" level="FAIL">Variable '${BASE_URL}' not found.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="FAIL" start="2025-09-24T16:39:14.225966" elapsed="0.001289">Variable '${BASE_URL}' not found.</status>
+</kw>
+<doc>Abre o navegador e inicia a página base do sistema</doc>
+<status status="FAIL" start="2025-09-24T16:39:14.213345" elapsed="0.014118">Variable '${BASE_URL}' not found.</status>
+</kw>
+<tag>dup</tag>
+<status status="FAIL" start="2025-09-24T16:39:14.203580" elapsed="0.024908">Setup failed:
+Variable '${BASE_URL}' not found.</status>
+</test>
+<test id="s1-s1-t3" name="Não deve cadastrar com email inválido (GUILHERME)" line="46">
+<kw name="Start Session" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T16:39:14.247189" level="INFO">Switching browser to browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:14.250345" level="INFO">Successfully changed active browser: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:14.250474" level="INFO">Reusing existing browser with id: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<arg>browser=chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T16:39:14.246541" elapsed="0.004005"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T16:39:14.251886" level="FAIL">Variable '${BASE_URL}' not found.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="FAIL" start="2025-09-24T16:39:14.250804" elapsed="0.001146">Variable '${BASE_URL}' not found.</status>
+</kw>
+<doc>Abre o navegador e inicia a página base do sistema</doc>
+<status status="FAIL" start="2025-09-24T16:39:14.246094" elapsed="0.006000">Variable '${BASE_URL}' not found.</status>
+</kw>
+<tag>cadastro</tag>
+<tag>guilherme</tag>
+<tag>negativo</tag>
+<status status="FAIL" start="2025-09-24T16:39:14.239639" elapsed="0.012908">Setup failed:
+Variable '${BASE_URL}' not found.</status>
+</test>
+<test id="s1-s1-t4" name="Não deve cadastrar com campos vazios - Campos obrigatórios (GUILHERME)" line="57">
+<kw name="Start Session" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T16:39:14.274818" level="INFO">Switching browser to browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:14.278229" level="INFO">Successfully changed active browser: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:14.278489" level="INFO">Reusing existing browser with id: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<arg>browser=chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T16:39:14.270189" elapsed="0.008393"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T16:39:14.279954" level="FAIL">Variable '${BASE_URL}' not found.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="FAIL" start="2025-09-24T16:39:14.278859" elapsed="0.001159">Variable '${BASE_URL}' not found.</status>
+</kw>
+<doc>Abre o navegador e inicia a página base do sistema</doc>
+<status status="FAIL" start="2025-09-24T16:39:14.268875" elapsed="0.011285">Variable '${BASE_URL}' not found.</status>
+</kw>
+<tag>cadastro</tag>
+<tag>guilherme</tag>
+<tag>negativo</tag>
+<status status="FAIL" start="2025-09-24T16:39:14.261529" elapsed="0.019822">Setup failed:
+Variable '${BASE_URL}' not found.</status>
+</test>
+<doc>Cenários de teste do Cadastro do usuário</doc>
+<status status="FAIL" start="2025-09-24T16:39:12.274654" elapsed="2.014187"/>
+</suite>
+<suite id="s1-s2" name="Login" source="C:\Users\Bruno Calazans\Documents\Compass\AutoBots\ServeRest\projects\tests\login.robot">
+<test id="s1-s2-t1" name="Não deve permitir login com usuário inexistente (RENAN)" line="16">
+<kw name="Start Session" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T16:39:14.322980" level="INFO">Switching browser to browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:14.325029" level="INFO">Successfully changed active browser: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:14.325178" level="INFO">Reusing existing browser with id: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<arg>browser=chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T16:39:14.322368" elapsed="0.003053"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T16:39:16.290370" level="INFO">Successfully initialized new page object and opened url: https://front.serverest.dev</msg>
+<msg time="2025-09-24T16:39:16.290447" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-09-24T16:39:14.325655" elapsed="1.964942"/>
+</kw>
+<doc>Abre o navegador e inicia a página base do sistema</doc>
+<status status="PASS" start="2025-09-24T16:39:14.321892" elapsed="1.968833"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-09-24T16:39:16.291817" level="INFO">${user} = {'nome': 'Teste de Usuário Inexistente', 'email': 'teste_de_usuario_inexistente@email.com.br', 'senha': 'teste123'}</msg>
+<var>${user}</var>
+<arg>nome=Teste de Usuário Inexistente</arg>
+<arg>email=teste_de_usuario_inexistente@email.com.br</arg>
+<arg>senha=teste123</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-09-24T16:39:16.291080" elapsed="0.000816"/>
+</kw>
+<kw name="Abrir Página de Login" owner="LoginPage">
+<kw name="Go To" owner="Browser">
+<msg time="2025-09-24T16:39:16.896009" level="INFO">Successfully opened URL https://front.serverest.dev/login</msg>
+<arg>${BASE_URL}/login</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the given ``url``.</doc>
+<status status="PASS" start="2025-09-24T16:39:16.293331" elapsed="0.602847"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-09-24T16:39:16.924082" level="INFO">Waited for Element with selector xpath=//h1 at state visible</msg>
+<arg>xpath=//h1</arg>
+<arg>visible</arg>
+<arg>5</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-09-24T16:39:16.896416" elapsed="0.027817"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-09-24T16:39:16.952648" level="INFO">Text: 'Login'</msg>
+<arg>xpath=//h1</arg>
+<arg>equal</arg>
+<arg>Login</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T16:39:16.924411" elapsed="0.028344"/>
+</kw>
+<status status="PASS" start="2025-09-24T16:39:16.292713" elapsed="0.660235"/>
+</kw>
+<kw name="Preencher Formulário de Login" owner="LoginPage">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T16:39:16.954680" level="INFO">Fills the text 'teste_de_usuario_inexistente@email.com.br' in the given field.</msg>
+<arg>id=email</arg>
+<arg>${user}[email]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T16:39:16.953858" elapsed="0.021230"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T16:39:16.976236" level="INFO">Fills the text 'teste123' in the given field.</msg>
+<arg>id=password</arg>
+<arg>${user}[senha]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T16:39:16.975380" elapsed="0.014946"/>
+</kw>
+<arg>${user}</arg>
+<status status="PASS" start="2025-09-24T16:39:16.953321" elapsed="0.037128"/>
+</kw>
+<kw name="Submeter Formulário de Login" owner="LoginPage">
+<kw name="Click" owner="Browser">
+<msg time="2025-09-24T16:39:16.991683" level="INFO">Clicks the element 'css=button[type=submit]'.</msg>
+<arg>css=button[type=submit]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T16:39:16.991235" elapsed="0.033689"/>
+</kw>
+<status status="PASS" start="2025-09-24T16:39:16.990834" elapsed="0.034208"/>
+</kw>
+<kw name="Validar texto de alerta" owner="LoginPage">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-09-24T16:39:17.871540" level="INFO">Waited for Element with selector xpath=//span[text()="Email e/ou senha inválidos"] at state visible</msg>
+<arg>xpath=//span[text()="Email e/ou senha inválidos"]</arg>
+<arg>visible</arg>
+<arg>5</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-09-24T16:39:17.026348" elapsed="0.845356"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-09-24T16:39:17.884758" level="INFO">Text: 'Email e/ou senha inválidos'</msg>
+<msg time="2025-09-24T16:39:17.884900" level="INFO">${mensagem} = Email e/ou senha inválidos</msg>
+<var>${mensagem}</var>
+<arg>xpath=//span[text()="Email e/ou senha inválidos"]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T16:39:17.871909" elapsed="0.013020"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${mensagem}</arg>
+<arg>${texto_esperado}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2025-09-24T16:39:17.885094" elapsed="0.000303"/>
+</kw>
+<arg>Email e/ou senha inválidos</arg>
+<status status="PASS" start="2025-09-24T16:39:17.025534" elapsed="0.859938"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser" type="TEARDOWN">
+<msg time="2025-09-24T16:39:18.063356" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-09-24T16:39:17.885861" elapsed="0.177643"/>
+</kw>
+<msg time="2025-09-24T16:39:18.076883" level="INFO">Switching context to context=57537792-9f5f-4bcb-a7b5-12b9a4ddbb46 in CURRENT</msg>
+<msg time="2025-09-24T16:39:18.085210" level="INFO">Successfully changed active context: context=57537792-9f5f-4bcb-a7b5-12b9a4ddbb46</msg>
+<msg time="2025-09-24T16:39:18.131374" level="INFO">Successfully closed Context</msg>
+<tag>login_inexistente</tag>
+<status status="PASS" start="2025-09-24T16:39:14.318410" elapsed="3.745332"/>
+</test>
+<test id="s1-s2-t2" name="Fazer logout (RENAN)" line="29">
+<kw name="Start Session" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-24T16:39:18.139496" level="INFO">Switching browser to browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:18.141344" level="INFO">Successfully changed active browser: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<msg time="2025-09-24T16:39:18.141481" level="INFO">Reusing existing browser with id: browser=26b644dd-517b-4701-9bec-859a16dcdb86</msg>
+<arg>browser=chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-24T16:39:18.138747" elapsed="0.002797"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-24T16:39:19.994010" level="INFO">Successfully initialized new page object and opened url: https://front.serverest.dev</msg>
+<msg time="2025-09-24T16:39:19.994101" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-09-24T16:39:18.141724" elapsed="1.852542"/>
+</kw>
+<doc>Abre o navegador e inicia a página base do sistema</doc>
+<status status="PASS" start="2025-09-24T16:39:18.137388" elapsed="1.857232"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-09-24T16:39:19.995568" level="INFO">${user} = {'nome': 'Teste de Usuário', 'email': 'teste_de_usuario@email.com.br', 'senha': 'teste123'}</msg>
+<var>${user}</var>
+<arg>nome=Teste de Usuário</arg>
+<arg>email=teste_de_usuario@email.com.br</arg>
+<arg>senha=teste123</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-09-24T16:39:19.995097" elapsed="0.000510"/>
+</kw>
+<kw name="Abrir Página de Login" owner="LoginPage">
+<kw name="Go To" owner="Browser">
+<msg time="2025-09-24T16:39:20.713660" level="INFO">Successfully opened URL https://front.serverest.dev/login</msg>
+<arg>${BASE_URL}/login</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the given ``url``.</doc>
+<status status="PASS" start="2025-09-24T16:39:19.996332" elapsed="0.717506"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-09-24T16:39:20.736165" level="INFO">Waited for Element with selector xpath=//h1 at state visible</msg>
+<arg>xpath=//h1</arg>
+<arg>visible</arg>
+<arg>5</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-09-24T16:39:20.714031" elapsed="0.022290"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-09-24T16:39:20.757741" level="INFO">Text: 'Login'</msg>
+<arg>xpath=//h1</arg>
+<arg>equal</arg>
+<arg>Login</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T16:39:20.736528" elapsed="0.021320"/>
+</kw>
+<status status="PASS" start="2025-09-24T16:39:19.995966" elapsed="0.761993"/>
+</kw>
+<kw name="Preencher Formulário de Login" owner="LoginPage">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T16:39:20.759446" level="INFO">Fills the text 'teste_de_usuario@email.com.br' in the given field.</msg>
+<arg>id=email</arg>
+<arg>${user}[email]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T16:39:20.758800" elapsed="0.017164"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-09-24T16:39:20.776793" level="INFO">Fills the text 'teste123' in the given field.</msg>
+<arg>id=password</arg>
+<arg>${user}[senha]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T16:39:20.776175" elapsed="0.013361"/>
+</kw>
+<arg>${user}</arg>
+<status status="PASS" start="2025-09-24T16:39:20.758314" elapsed="0.031353"/>
+</kw>
+<kw name="Submeter Formulário de Login" owner="LoginPage">
+<kw name="Click" owner="Browser">
+<msg time="2025-09-24T16:39:20.790912" level="INFO">Clicks the element 'css=button[type=submit]'.</msg>
+<arg>css=button[type=submit]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-24T16:39:20.790422" elapsed="0.026607"/>
+</kw>
+<status status="PASS" start="2025-09-24T16:39:20.789999" elapsed="0.027147"/>
+</kw>
+<kw name="Clicar em Logout" owner="LoginPage">
+<kw name="Click" owner="Browser">
+<msg time="2025-09-24T16:39:20.818286" level="INFO">Clicks the element 'xpath=//*[@id="navbarTogglerDemo01"]/form/button'.</msg>
+<msg time="2025-09-24T16:39:30.996082" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-09-24T16:39:30.996248" level="INFO">See also file:///C:/Users/Bruno%20Calazans/Documents/Compass/AutoBots/ServeRest/projects/logs/playwright-log.txt for additional details.</msg>
+<msg time="2025-09-24T16:39:30.996540" level="FAIL">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//*[@id="navbarTogglerDemo01"]/form/button')
+</msg>
+<arg>xpath=//*[@id="navbarTogglerDemo01"]/form/button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="FAIL" start="2025-09-24T16:39:20.817860" elapsed="10.183777">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//*[@id="navbarTogglerDemo01"]/form/button')
+</status>
+</kw>
+<status status="FAIL" start="2025-09-24T16:39:20.817482" elapsed="10.184418">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//*[@id="navbarTogglerDemo01"]/form/button')
+</status>
+</kw>
+<kw name="Validar pagina de login" owner="LoginPage">
+<arg>Login</arg>
+<status status="NOT RUN" start="2025-09-24T16:39:31.002409" elapsed="0.000161"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser" type="TEARDOWN">
+<msg time="2025-09-24T16:39:31.173783" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-09-24T16:39:31.002982" elapsed="0.170939"/>
+</kw>
+<msg time="2025-09-24T16:39:31.186257" level="INFO">Switching context to context=76357484-aecc-4226-ab19-a8540d1056fe in CURRENT</msg>
+<msg time="2025-09-24T16:39:31.193107" level="INFO">Successfully changed active context: context=76357484-aecc-4226-ab19-a8540d1056fe</msg>
+<msg time="2025-09-24T16:39:31.234137" level="INFO">Successfully closed Context</msg>
+<tag>logout</tag>
+<status status="FAIL" start="2025-09-24T16:39:18.134404" elapsed="13.039726">TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//*[@id="navbarTogglerDemo01"]/form/button')
+</status>
+</test>
+<doc>Cenários de teste do Cadastro do usuário</doc>
+<status status="FAIL" start="2025-09-24T16:39:14.296752" elapsed="16.938594"/>
+</suite>
+<status status="FAIL" start="2025-09-24T16:39:12.245463" elapsed="18.997610"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="5" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2" skip="0">cadastro</stat>
+<stat pass="0" fail="1" skip="0">dup</stat>
+<stat pass="0" fail="2" skip="0">guilherme</stat>
+<stat pass="1" fail="0" skip="0">login_inexistente</stat>
+<stat pass="0" fail="1" skip="0">logout</stat>
+<stat pass="0" fail="2" skip="0">negativo</stat>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="5" skip="0">Tests</stat>
+<stat name="Cadastro" id="s1-s1" pass="0" fail="4" skip="0">Tests.Cadastro</stat>
+<stat name="Login" id="s1-s2" pass="1" fail="1" skip="0">Tests.Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
