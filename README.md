@@ -11,3 +11,5 @@ Repositório para o Squad BugBusters do programa de bolsas da Compass UOL, trilh
 ### Cadastro:
 - Realizar um cadastro com sucesso dentro da aplicação.
 - Tentar realizar um cadastro utilizando um email já cadastrado.
+
+### O arquivo `.md` com o code review está em `Sprint 7/Code review - AutoBots/CodeReview.md`
